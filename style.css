@@ -18,7 +18,7 @@ h2 {
 .box {
     background-color: white;
     padding: 2vh;
-    width: fit-content;
+    margin-bottom: .5vw;
 }
 
 .list {
@@ -32,13 +32,18 @@ h2 {
 
 .list a, .list div {
     flex: 1 1 25%;
-    margin: 1vw;
+    margin: .5vw;
     background-color: white;
     padding: 10px;
     border-radius: 5px;
     min-width: 200px;
-    max-width: 500px;
-    align-items: flex-end;
+    max-width: 340px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 
 img {
